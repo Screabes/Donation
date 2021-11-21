@@ -1,15 +1,16 @@
-# Basic Sample Hardhat Project
+# Donation smart-contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
+### 1) Initial project
+Use following command for this
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+npm install
+```
+
+### 2) Pre-deployment 
+Create .env file and fill it [.env.example](./.env.example) by example
+
+### 3) Deployment
+To deploy Donation.sol use following command
+```shell
+npm run deploy-rinkeby
 ```
